@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path,include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),  # bu yeni yopish kerak kustom uchun
     path('v1/api/account/',include('account.urls'))
 ]
 # from django.contrib import admin
